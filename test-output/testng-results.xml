@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9782" started-at="2023-03-11T19:19:47 ICT" finished-at="2023-03-11T19:19:56 ICT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucedemo.runner.RunnerFiles@69b0fd6f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="9782" started-at="2023-03-11T19:19:47 ICT" finished-at="2023-03-11T19:19:56 ICT">
+      <class name="com.saucedemo.runner.RunnerFiles">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.saucedemo.runner.RunnerFiles@69b0fd6f]" name="setUpClass" is-config="true" duration-ms="520" started-at="2023-03-11T19:19:47 ICT" finished-at="2023-03-11T19:19:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f52eb6f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucedemo.runner.RunnerFiles@69b0fd6f]" name="runScenario" duration-ms="4892" started-at="2023-03-11T19:19:47 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-11T19:19:52 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test invalid login to DemoSauce"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Demosauce Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucedemo.runner.RunnerFiles@69b0fd6f]" name="runScenario" duration-ms="4279" started-at="2023-03-11T19:19:52 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-11T19:19:56 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test login to DemoSauce"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Demosauce Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.saucedemo.runner.RunnerFiles@69b0fd6f]" name="tearDownClass" is-config="true" duration-ms="51" started-at="2023-03-11T19:19:56 ICT" finished-at="2023-03-11T19:19:56 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.saucedemo.runner.RunnerFiles -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
